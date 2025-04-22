@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #AC7B88;
+    color: white;
+    font-family: Cormorant, sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    margin-left: 20px; 
+}
+
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navLinks a:hover {
+    color:#AC7B88;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.login {
+    margin-right: 20px; 
+}
+
+.button button {
+    background-color: #AC7B88;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Cormorant, sans-serif;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button button:hover {
+    background-color: white;
+    color: #AC7B88;
+}
+
+
+.Bienvenida {
+    position: relative;
+    background-image: url('https://res.cloudinary.com/dxdcsjptd/image/upload/v1744544245/bienvenida_dcytvx.png'); /* Reemplaza con la URL de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la sección */
+    background-position: center; /* Centra la imagen en la pantalla */
+    height: 100vh; /* La altura será igual a la altura de la ventana */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    color: white; /* El texto será blanco */
+    text-align: center; /* Centra el texto dentro de su contenedor */
+    padding: 0 20px; /* Espacio a los lados de la sección */
+    overflow: hidden; /* Evita que el contenido se desborde de la sección */
+}
+
+/* Estilo para el texto "Explora el mundo" */
+.explora-texto {
+    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
+    font-size: 6rem; /* Tamaño de la fuente */
+    font-style: italic; /* Aplica la cursiva */
+    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
+}
+
+/* Estilo para el texto "Crea recuerdos inolvidables" */
+.recuerdos-texto {
+    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
+    font-size: 6rem; /* Tamaño de la fuente */
+    font-style: italic; /* Aplica la cursiva */
+    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
+    padding-top: 10px; /* Un pequeño espacio entre líneas */
+}
+
+/* Estilo para el texto "HAPPY TRAVEL" con Cormorant */
+.happy-travel-texto {
+    font-family: 'Cormorant', serif; /* Aplica la fuente Cormorant */
+    font-size: 6rem; /* Tamaño de la fuente más grande */
+    font-weight: bold; /* Hace que el texto sea en negrita */
+    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
+    padding-top: 10px; /* Un pequeño espacio entre líneas */
+}
+
+/* Estilo para el botón "Planifica tu viaje" */
+.Planifica-btn {
+    background-color: #AC7B88; /* Fondo rosa claro para el botón */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde visible */
+    padding: 12px 24px; /* Espacio dentro del botón, ajustable */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer; /* El cursor cambia al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición suave cuando se cambia el color de fondo */
+}
+
+/* Estilo cuando el cursor está sobre el botón */
+.Planifica-btn:hover {
+    background-color: white; /* Cambia el fondo a blanco */
+    color: #AC7B88; /* Cambia el color del texto a rosa */
+}
+
+/* Degradado hacia blanco en la parte inferior de la imagen */
+.Bienvenida::after {
+    content: ''; /* Necesario para crear un pseudo-elemento */
+    position: absolute; /* Posición absoluta para que se ubique en la parte inferior de la sección */
+    bottom: 0; /* Alinea el pseudo-elemento al fondo */
+    left: 0; /* Alinea al lado izquierdo */
+    right: 0; /* Alinea al lado derecho */
+    height: 150px; /* Establece la altura del degradado */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); /* Crea un degradado de transparente a blanco */
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #AC7B88; 
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 15px; 
+}
+
+.footer-icons a img {
+    width: 30px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.footer-icons a:hover img {
+    transform: scale(1.1); 
+}
+
+
+.separator {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid white; 
+    margin-bottom: 15px; 
+}
+
+
+.copyright {
+    font-family: Cormorant, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
