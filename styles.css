@@ -53,7 +53,7 @@
     border: 2px solid white;
     padding: 8px 16px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 25px;
     font-family: Cormorant, sans-serif;
     font-size: 20px;
     transition: background-color 0.3s, color 0.3s;
@@ -73,10 +73,10 @@
     height: 100vh; /* La altura será igual a la altura de la ventana */
     display: flex;
     justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
+    align-items: flex-start; /* Centra el contenido verticalmente */
     color: white; /* El texto será blanco */
     text-align: center; /* Centra el texto dentro de su contenedor */
-    padding: 0 10px; /* Espacio a los lados de la sección */
+    padding: 80px 20px 0 20px; /* Espacio a los lados de la sección */
     overflow: hidden; /* Evita que el contenido se desborde de la sección */
 }
 
@@ -114,8 +114,8 @@
     border: none; /* Sin borde visible */
     padding: 12px 24px; 
     font-family: 'Cormorant', serif;/* Espacio dentro del botón, ajustable */
-    font-size: 16px; /* Tamaño de la fuente del botón */
-    border-radius: 20px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño de la fuente del botón */
+    border-radius: 25px; /* Bordes redondeados */
     cursor: pointer; /* El cursor cambia al pasar sobre el botón */
     transition: background-color 0.3s ease; /* Efecto de transición suave cuando se cambia el color de fondo */
 }
@@ -134,8 +134,9 @@
     bottom: 0; /* Alinea el pseudo-elemento al fondo */
     left: 0; /* Alinea al lado izquierdo */
     right: 0; /* Alinea al lado derecho */
-    height: 150px; /* Establece la altura del degradado */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); /* Crea un degradado de transparente a blanco */
+    height: 450px; /* Establece la altura del degradado */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, white 100%);
+ /* Crea un degradado de transparente a blanco */
 }
 
 .smile img {
@@ -145,9 +146,83 @@
     padding-bottom: 20px;/* Mantiene la proporción */
 }
 
+.carrusel {
+    position: relative;
+    width: 100%;
+    max-width: 960px; /* Ajusta el valor según el tamaño deseado */
+    margin: 0 auto; 
+    margin-top: 30px; /* Espacio superior */
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Permite el desplazamiento horizontal */
+    gap: 30px; /* Espacio entre las imágenes */
+    padding: 40px 0;
+    flex-wrap: wrap; /* Espacio alrededor del carrusel */
+}
 
+.fotosdestinos {
+    display: flex;
+    gap: 40px;/* Permite que las imágenes se ajusten en varias filas */
+}
 
+.fotosdestinos img {
+    width: 250px; /* Ajusta el valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 25px; /* Bordes redondeados */
+    transition: transform 0.3s ease; /* Efecto de transición suave al escalar */
+}
 
+.carrusel img:hover {
+    transform: scale(1.05); /* Escala la imagen al pasar el cursor */
+}
+
+.btn-flechas {
+    position: absolute; /* Centra verticalmente */
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: inline-block;
+    transition: transform 0.3s ease; 
+}
+
+.btn-flechas img {
+    width: 40px; 
+}
+.btn-flechas:hover {
+    transform: scale(1.1); /* Escala la flecha al pasar el cursor */
+}
+.FlechaIzquierda {
+    left: -30px; 
+}
+
+.FlechaDerecha {
+    right: -10px; 
+}
+
+.descubrir-destinos {
+    text-align: center; /* Centra el contenido del botón */
+    margin-top: 30px;  /* Espacio superior para separar del carrusel */
+}
+
+.descubrir-btn {
+    background-color: white; /* Fondo blanco */
+    color: #AC7B88; /* Texto rosa */
+    border: 2px solid #AC7B88; /* Borde rosa */
+    padding: 12px 24px;
+    font-family: 'Cormorant', serif; /* Fuente que ya estás usando */
+    font-size: 20px;
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    margin-bottom: 40px;/* Transición suave para fondo y texto */
+}
+
+.descubrir-btn:hover {
+    background-color: #AC7B88; /* Fondo rosa al pasar el mouse */
+    color: white; /* Texto blanco */
+}
 
 
 footer {
