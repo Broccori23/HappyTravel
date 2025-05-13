@@ -76,7 +76,7 @@
     align-items: flex-start; /* Centra el contenido verticalmente */
     color: white; /* El texto será blanco */
     text-align: center; /* Centra el texto dentro de su contenedor */
-    padding: 80px 20px 0 20px; /* Espacio a los lados de la sección */
+    padding: 20px 20px 50px; /* Espacio a los lados de la sección */
     overflow: hidden; /* Evita que el contenido se desborde de la sección */
 }
 
@@ -109,13 +109,14 @@
 /* Estilo para el botón "Planifica tu viaje" */
 .Planifica-btn {
     position: relative;
-    background-color: #AC7B88; /* Fondo rosa claro para el botón */
+    background-color: transparent; /* Fondo rosa claro para el botón */
     color: white; /* Texto blanco */
-    border: none; /* Sin borde visible */
-    padding: 12px 24px; 
+    border: 2px solid white;  /* Sin borde visible */
+    padding: 20px 40px; 
     font-family: 'Cormorant', serif;/* Espacio dentro del botón, ajustable */
-    font-size: 20px; /* Tamaño de la fuente del botón */
-    border-radius: 25px; /* Bordes redondeados */
+    font-size: 30px;
+    font-weight: 400; /* Tamaño de la fuente del botón */
+    border-radius: 40px; /* Bordes redondeados */
     cursor: pointer; /* El cursor cambia al pasar sobre el botón */
     transition: background-color 0.3s ease; /* Efecto de transición suave cuando se cambia el color de fondo */
 }
@@ -123,7 +124,7 @@
 /* Estilo cuando el cursor está sobre el botón */
 .Planifica-btn:hover {
     background-color: white !important;
-    color: #AC7B88 !important;
+    color: #7BAC9F ; !important;
 }
 
 
@@ -134,8 +135,8 @@
     bottom: 0; /* Alinea el pseudo-elemento al fondo */
     left: 0; /* Alinea al lado izquierdo */
     right: 0; /* Alinea al lado derecho */
-    height: 450px; /* Establece la altura del degradado */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, white 100%);
+    height: 120px; /* Establece la altura del degradado */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
  /* Crea un degradado de transparente a blanco */
 }
 
@@ -151,7 +152,7 @@
     width: 100%;
     max-width: 960px; /* Ajusta el valor según el tamaño deseado */
     margin: 0 auto; 
-    margin-top: 30px; /* Espacio superior */
+    margin-top: 50px; /* Espacio superior */
     display: flex;
     justify-content: center;
     align-items: center;/* Permite el desplazamiento horizontal */
@@ -207,16 +208,18 @@
 }
 
 .descubrir-btn {
+    position: relative;
     background-color: white; /* Fondo blanco */
     color: #AC7B88; /* Texto rosa */
     border: 2px solid #AC7B88; /* Borde rosa */
-    padding: 12px 24px;
+    padding: 20px 40px;
     font-family: 'Cormorant', serif; /* Fuente que ya estás usando */
-    font-size: 20px;
-    border-radius: 25px; /* Bordes redondeados */
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 40px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     transition: background-color 0.3s ease, color 0.3s ease; 
-    margin-bottom: 40px;/* Transición suave para fondo y texto */
+    margin-bottom: 70px;/* Transición suave para fondo y texto */
 }
 
 .descubrir-btn:hover {
