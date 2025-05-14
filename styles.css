@@ -18,6 +18,14 @@
     margin-left: 20px; 
 }
 
+.logo img {
+    transition: transform 0.3s ease; 
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
 
 .navLinks {
     list-style: none;
@@ -67,7 +75,7 @@
 
 .Bienvenida {
     position: relative;
-    background-image: url('https://res.cloudinary.com/dxdcsjptd/image/upload/v1744544245/bienvenida_dcytvx.png'); /* Reemplaza con la URL de tu imagen */
+    background-image: url('https://res.cloudinary.com/dxdcsjptd/image/upload/e_gen_restore/v1744544245/bienvenida_dcytvx.png'); /* Reemplaza con la URL de tu imagen */
     background-size: cover; /* Hace que la imagen cubra toda la sección */
     background-position: center; /* Centra la  en la pantalla */
     height: 100vh; /* La altura será igual a la altura de la ventana */
@@ -144,7 +152,11 @@
     width: 95px; /* Ajusta el valor según el tamaño deseado */
     height: auto; 
     padding-top: 10px;
-    padding-bottom: 20px;/* Mantiene la proporción */
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.smile img:hover {
+    transform: scale(1.05); /* Escala la imagen al pasar el cursor */
 }
 
 .carrusel {
