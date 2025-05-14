@@ -239,6 +239,12 @@
     color: white; /* Texto blanco */
 }
 
+a.descubrir-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 footer {
     background-color: #AC7B88; 
