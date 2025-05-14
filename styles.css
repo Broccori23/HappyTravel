@@ -288,6 +288,111 @@ footer {
     
 }
 
+
+.botones-superiores {
+    display: flex; /* Usamos flex para alinear los botones en una fila */
+    justify-content: space-evenly; /* Asegura que haya más espacio entre los botones */
+    gap: 400px; /* Controla la separación entre los botones */ /* Limita el ancho del contenedor (ajusta este valor según lo necesites) */
+    margin: 20px auto; /* Agrega espacio superior e inferior si es necesario */
+}
+
+.boton-filtro {
+  all: unset; /* Limpia todo el estilo por defecto del botón */
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #7BAC9F;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-family: 'Cormorant', serif;
+  font-size: 22px;
+  color: #7BAC9F;
+  cursor: pointer;
+  gap: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  width: fit-content; /* Solo ocupa el ancho necesario */
+  margin-top: 30px; /* Separación desde arriba */
+}
+
+.boton-filtro:hover {
+  background-color: #7BAC9F;
+  color: white;
+}
+
+.icono-boton {
+  width: 30px;
+  height: 30px;
+}
+
+.boton-filtro:hover .icono-boton {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s; /* Cambia el color de la imagen para mejorar la visibilidad */
+}
+
+.barra-vertical {
+  justify-content: flex-start;
+  height: 30px;
+  width: 2px;
+  background-color: #7BAC9F;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.boton-filtro:hover .barra-vertical {
+  background-color: white;
+}
+
+.texto-boton {
+  margin: 0 10px;
+}
+
+/* Estilo del botón a la derecha */
+.boton-buscar {
+  all: unset; /* Limpia todo el estilo por defecto del botón */
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #7BAC9F;
+  border-radius: 30px;
+  padding: 10px 10px;
+  font-family: 'Cormorant', serif;
+  font-size: 22px;
+  color: #7BAC9F;
+  cursor: pointer;
+  gap: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  width: fit-content; /* Solo ocupa el ancho necesario */
+  margin-left: 0; /* Sin margen a la izquierda, alineado con el flexbox */
+  margin-top: 30px; /* Separación desde arriba */
+}
+
+.boton-buscar:hover {
+  background-color: #7BAC9F;
+  color: white;
+}
+
+.boton-buscar:hover .icono-boton {
+  filter: brightness(0) invert(1); /* Cambia el color del icono */
+}
+
+.boton-buscar .barra-vertical {
+  justify-content: flex-start;
+  height: 30px;
+  width: 2px;
+  background-color: #7BAC9F;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.boton-buscar:hover .barra-vertical {
+  background-color: white;
+}
+
+.boton-buscar .texto-boton {
+  margin: 0 10px;
+}
+
+
 .destinos-galeria {
     padding: 50px;
     background-color: #f9f9f9;
@@ -296,7 +401,7 @@ footer {
 .grid-destinos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 80px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -310,4 +415,3 @@ footer {
 .destino img:hover {
     transform: scale(1.05);
 }
-
