@@ -124,7 +124,7 @@
 /* Estilo cuando el cursor está sobre el botón */
 .Planifica-btn:hover {
     background-color: white !important;
-    color: #7BAC9F ; !important;
+    color: #7BAC9F  !important;
 }
 
 
@@ -135,7 +135,7 @@
     bottom: 0; /* Alinea el pseudo-elemento al fondo */
     left: 0; /* Alinea al lado izquierdo */
     right: 0; /* Alinea al lado derecho */
-    height: 120px; /* Establece la altura del degradado */
+    height: 300px; /* Establece la altura del degradado */
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
  /* Crea un degradado de transparente a blanco */
 }
@@ -234,6 +234,8 @@ footer {
     text-align: center;
 
 }
+
+
 
 
 .footer-icons {
