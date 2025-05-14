@@ -392,6 +392,14 @@ footer {
   margin: 0 10px;
 }
 
+.barra-horizontal {
+    width: 80%; /* La barra ocupará el 80% del ancho del contenedor */
+    height: 2px; /* Alto de la barra */
+    background-color: #7BAC9F; /* Color verde */
+    margin: 20px auto; /* Centra la barra debajo de los botones */
+    border-radius: 10px; /* Bordes redondeados si lo prefieres */
+}
+
 
 .destinos-galeria {
     padding: 50px;
