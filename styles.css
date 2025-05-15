@@ -467,6 +467,15 @@ footer {
   flex-wrap: wrap;
 }
 
+.barra-divisoria {
+    width: 80%; /* La barra ocupará el 80% del ancho del contenedor */
+    height: 2px; /* Alto de la barra */
+    background-color: #AC7B88; /* Color verde */
+    margin: 20px auto; /* Centra la barra debajo de los botones */
+    border-radius: 10px; /* Bordes redondeados si lo prefieres */
+}
+
+
 /* Formulario */
 .formulario {
   background-color: #BDCEC9; /* 50% de opacidad */
@@ -480,16 +489,16 @@ footer {
 }
 
 .formulario label {
+  margin-left: 0.5rem;
   font-size: 1.2rem;
   color: #ffffff;
-  border-radius: 30px;
 }
 
 .formulario input,
 .formulario textarea {
   font-size: 1.1rem;
   padding: 1rem;
-  border-radius: 15px;
+  border-radius: 30px;
   border: none;
   background-color: #E6E6E6;
   font-family: 'Cormorant', serif;
@@ -502,15 +511,16 @@ footer {
   font-size: 1.1rem;
   background-color: #E6E6E6;
   color: #7BAC9F;
-  border: none;
-  border-radius: 15px;
+  border: #7BAC9F 2px solid;
+  border-radius: 30px;
   font-family: 'Cormorant', serif;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .formulario button:hover {
-  background-color: #d0d0d0;
+  background-color: #7BAC9F;
+    color: #ffffff;
 }
 
 /* Info de contacto */
@@ -540,7 +550,7 @@ footer {
   align-items: center;
   gap: 0.8rem;
   margin: 0;
-  margin-left: 4rem; ;
+  margin-left: 6rem; ;
 }
 
 .icono {
@@ -552,4 +562,8 @@ footer {
   margin-top: 2rem;
   width: 100px;
   align-self: center;
+  transition: transform 0.3s ease;
+}
+.cara:hover {
+  transform: scale(1.05);
 }
