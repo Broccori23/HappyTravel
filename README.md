@@ -19,16 +19,6 @@ Incluye:
 - Imágenes e iconos desde Cloudinary
 ---
 
-## 📁 Estructura del proyecto
-
-/HappyTravel
-│
-├── index.html # Página principal con bienvenida y navegación
-├── destinos.html # Galería de destinos turísticos
-├── contacto.html # Página de contacto con formulario
-└── styles.css # Hoja de estilos principal
----
-
 ## 🎨 Diseño
 
 Este proyecto presenta un diseño visual refinado, editorial y moderno, utilizando una combinación de colores suaves, tipografías elegantes y efectos sutiles para crear una experiencia atractiva para el usuario.
