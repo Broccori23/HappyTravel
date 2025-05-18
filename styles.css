@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -75,122 +77,122 @@
 
 .Bienvenida {
     position: relative;
-    background-image: url('https://res.cloudinary.com/dxdcsjptd/image/upload/e_gen_restore/v1744544245/bienvenida_dcytvx.png'); /* Reemplaza con la URL de tu imagen */
-    background-size: cover; /* Hace que la imagen cubra toda la sección */
-    background-position: center; /* Centra la  en la pantalla */
-    height: 100vh; /* La altura será igual a la altura de la ventana */
+    background-image: url('https://res.cloudinary.com/dxdcsjptd/image/upload/e_gen_restore/v1744544245/bienvenida_dcytvx.png'); 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
     display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: flex-start; /* Centra el contenido verticalmente */
-    color: white; /* El texto será blanco */
-    text-align: center; /* Centra el texto dentro de su contenedor */
-    padding: 20px 20px 50px; /* Espacio a los lados de la sección */
-    overflow: hidden; /* Evita que el contenido se desborde de la sección */
+    justify-content: center; 
+    align-items: flex-start;
+    color: white; 
+    text-align: center; 
+    padding: 20px 20px 50px; 
+    overflow: hidden; 
 }
 
-/* Estilo para el texto "Explora el mundo" */
+
 .explora-texto {
-    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
-    font-size: 6rem; /* Tamaño de la fuente */
-    font-style: italic; /* Aplica la cursiva */
-    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem; 
+    font-style: italic; 
+    margin: 0; 
 }
 
-/* Estilo para el texto "Crea recuerdos inolvidables" */
+
 .recuerdos-texto {
-    font-family: 'Playfair Display', serif; /* Aplica la fuente Playfair Display */
-    font-size: 6rem; /* Tamaño de la fuente */
-    font-style: italic; /* Aplica la cursiva */
-    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
-    padding-top: 10px; /* Un pequeño espacio entre líneas */
+    font-family: 'Playfair Display', serif; 
+    font-size: 6rem; 
+    font-style: italic; 
+    margin: 0;
+    padding-top: 10px; 
 }
 
-/* Estilo para el texto "HAPPY TRAVEL" con Cormorant */
+
 .happy-travel-texto {
-    font-family: 'Cormorant', serif; /* Aplica la fuente Cormorant */
-    font-size: 6rem; /* Tamaño de la fuente más grande */
-    font-weight: bold; /* Hace que el texto sea en negrita */
-    margin: 0; /* Elimina los márgenes para que no haya espacio extra */
-    padding-top: 10px; /* Un pequeño espacio entre líneas */
+    font-family: 'Cormorant', serif; 
+    font-size: 6rem; 
+    font-weight: bold; 
+    margin: 0; 
+    padding-top: 10px; 
 }
 
-/* Estilo para el botón "Planifica tu viaje" */
+
 .Planifica-btn {
     position: relative;
-    background-color: transparent; /* Fondo rosa claro para el botón */
-    color: white; /* Texto blanco */
-    border: 2px solid white;  /* Sin borde visible */
+    background-color: transparent; 
+    color: white;
+    border: 2px solid white;  
     padding: 20px 40px; 
-    font-family: 'Cormorant', serif;/* Espacio dentro del botón, ajustable */
+    font-family: 'Cormorant', serif;
     font-size: 30px;
-    font-weight: 400; /* Tamaño de la fuente del botón */
-    border-radius: 40px; /* Bordes redondeados */
-    cursor: pointer; /* El cursor cambia al pasar sobre el botón */
-    transition: background-color 0.3s ease; /* Efecto de transición suave cuando se cambia el color de fondo */
+    font-weight: 400; 
+    border-radius: 40px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
-/* Estilo cuando el cursor está sobre el botón */
+
 .Planifica-btn:hover {
     background-color: white !important;
     color: #7BAC9F  !important;
 }
 
 
-/* Degradado hacia blanco en la parte inferior de la imagen */
+
 .Bienvenida::after {
-    content: ''; /* Necesario para crear un pseudo-elemento */
-    position: absolute; /* Posición absoluta para que se ubique en la parte inferior de la sección */
-    bottom: 0; /* Alinea el pseudo-elemento al fondo */
-    left: 0; /* Alinea al lado izquierdo */
-    right: 0; /* Alinea al lado derecho */
-    height: 300px; /* Establece la altura del degradado */
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 300px; 
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
- /* Crea un degradado de transparente a blanco */
+
 }
 
 .smile img {
-    width: 95px; /* Ajusta el valor según el tamaño deseado */
+    width: 95px; 
     height: auto; 
     padding-top: 10px;
     padding-bottom: 20px;
     transition: transform 0.3s ease;
 }
 .smile img:hover {
-    transform: scale(1.05); /* Escala la imagen al pasar el cursor */
+    transform: scale(1.05); 
 }
 
 .carrusel {
     position: relative;
     width: 100%;
-    max-width: 960px; /* Ajusta el valor según el tamaño deseado */
+    max-width: 960px; 
     margin: 0 auto; 
-    margin-top: 50px; /* Espacio superior */
+    margin-top: 50px; 
     display: flex;
     justify-content: center;
-    align-items: center;/* Permite el desplazamiento horizontal */
-    gap: 30px; /* Espacio entre las imágenes */
+    align-items: center;
+    gap: 30px; 
     padding: 40px 0;
-    flex-wrap: wrap; /* Espacio alrededor del carrusel */
+    flex-wrap: wrap; 
 }
 
 .fotosdestinos {
     display: flex;
-    gap: 40px;/* Permite que las imágenes se ajusten en varias filas */
+    gap: 40px;
 }
 
 .fotosdestinos img {
-    width: 250px; /* Ajusta el valor según el tamaño deseado */
-    height: auto; /* Mantiene la proporción */
-    border-radius: 25px; /* Bordes redondeados */
-    transition: transform 0.3s ease; /* Efecto de transición suave al escalar */
+    width: 250px; 
+    height: auto; 
+    border-radius: 25px; 
+    transition: transform 0.3s ease; 
 }
 
 .carrusel img:hover {
-    transform: scale(1.05); /* Escala la imagen al pasar el cursor */
+    transform: scale(1.05); 
 }
 
 .btn-flechas {
-    position: absolute; /* Centra verticalmente */
+    position: absolute; 
     width: 20px;
     height: auto;
     cursor: pointer;
@@ -204,7 +206,7 @@
     width: 40px; 
 }
 .btn-flechas:hover {
-    transform: scale(1.1); /* Escala la flecha al pasar el cursor */
+    transform: scale(1.1); 
 }
 .FlechaIzquierda {
     left: -30px; 
@@ -215,28 +217,28 @@
 }
 
 .descubrir-destinos {
-    text-align: center; /* Centra el contenido del botón */
-    margin-top: 30px;  /* Espacio superior para separar del carrusel */
+    text-align: center; 
+    margin-top: 30px;  
 }
 
 .descubrir-btn {
     position: relative;
-    background-color: white; /* Fondo blanco */
-    color: #AC7B88; /* Texto rosa */
-    border: 2px solid #AC7B88; /* Borde rosa */
+    background-color: white; 
+    color: #AC7B88; 
+    border: 2px solid #AC7B88; 
     padding: 20px 40px;
-    font-family: 'Cormorant', serif; /* Fuente que ya estás usando */
+    font-family: 'Cormorant', serif; 
     font-size: 30px;
     font-weight: 400;
-    border-radius: 40px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 40px; 
+    cursor: pointer; 
     transition: background-color 0.3s ease, color 0.3s ease; 
-    margin-bottom: 70px;/* Transición suave para fondo y texto */
+    margin-bottom: 70px;
 }
 
 .descubrir-btn:hover {
-    background-color: #AC7B88; /* Fondo rosa al pasar el mouse */
-    color: white; /* Texto blanco */
+    background-color: #AC7B88; 
+    color: white; 
 }
 
 a.descubrir-btn {
@@ -290,14 +292,14 @@ footer {
 
 
 .botones-superiores {
-    display: flex; /* Usamos flex para alinear los botones en una fila */
-    justify-content: space-evenly; /* Asegura que haya más espacio entre los botones */
-    gap: 400px; /* Controla la separación entre los botones */ /* Limita el ancho del contenedor (ajusta este valor según lo necesites) */
-    margin: 20px auto; /* Agrega espacio superior e inferior si es necesario */
+    display: flex; 
+    justify-content: space-evenly; 
+    gap: 400px; 
+    margin: 20px auto; 
 }
 
 .boton-filtro {
-  all: unset; /* Limpia todo el estilo por defecto del botón */
+  all: unset; 
   display: flex;
   align-items: center;
   background-color: white;
@@ -310,8 +312,8 @@ footer {
   cursor: pointer;
   gap: 5px;
   transition: background-color 0.3s, color 0.3s;
-  width: fit-content; /* Solo ocupa el ancho necesario */
-  margin-top: 30px; /* Separación desde arriba */
+  width: fit-content; 
+  margin-top: 30px; 
 }
 
 .boton-filtro:hover {
@@ -326,7 +328,7 @@ footer {
 
 .boton-filtro:hover .icono-boton {
   filter: brightness(0) invert(1);
-  transition: filter 0.3s; /* Cambia el color de la imagen para mejorar la visibilidad */
+  transition: filter 0.3s;
 }
 
 .barra-vertical {
@@ -354,7 +356,7 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 70px; /* Se alinea con la parte baja del botón */
+  top: 70px; 
   left: 0;
   background-color: white;
   border: 2px solid #7BAC9F;
@@ -389,9 +391,9 @@ footer {
   display: block;
 }
 
-/* Estilo del botón a la derecha */
+
 .boton-buscar {
-  all: unset; /* Limpia todo el estilo por defecto del botón */
+  all: unset; 
   display: flex;
   align-items: center;
   background-color: white;
@@ -404,9 +406,9 @@ footer {
   cursor: pointer;
   gap: 5px;
   transition: background-color 0.3s, color 0.3s;
-  width: fit-content; /* Solo ocupa el ancho necesario */
-  margin-left: 0; /* Sin margen a la izquierda, alineado con el flexbox */
-  margin-top: 30px; /* Separación desde arriba */
+  width: fit-content; 
+  margin-left: 0; 
+  margin-top: 30px; 
 }
 
 .boton-buscar:hover {
@@ -415,7 +417,7 @@ footer {
 }
 
 .boton-buscar:hover .icono-boton {
-  filter: brightness(0) invert(1); /* Cambia el color del icono */
+  filter: brightness(0) invert(1);
 }
 
 .boton-buscar .barra-vertical {
@@ -436,11 +438,11 @@ footer {
 }
 
 .barra-horizontal {
-    width: 80%; /* La barra ocupará el 80% del ancho del contenedor */
-    height: 2px; /* Alto de la barra */
-    background-color: #7BAC9F; /* Color verde */
-    margin: 20px auto; /* Centra la barra debajo de los botones */
-    border-radius: 10px; /* Bordes redondeados si lo prefieres */
+    width: 80%; 
+    height: 2px; 
+    background-color: #7BAC9F; 
+    margin: 20px auto; 
+    border-radius: 10px; 
 }
 
 .destino {
@@ -470,7 +472,7 @@ footer {
 
 .destino:hover img {
     transform: scale(1.05);
-    opacity: 0.9; /* Hace la imagen más translúcida al pasar el cursor */
+    opacity: 0.9; 
 }
 
 .descripcion {
@@ -488,11 +490,11 @@ footer {
     max-width: 100%; 
     line-height: 1.4;
     padding: 5px 20px;
-    pointer-events: none; /* Evita que interfiera con el hover de la imagen */
+    pointer-events: none; 
 }
 
 .destino:hover .descripcion {
-    opacity: 1; /* Muestra el texto cuando se pasa el cursor */
+    opacity: 1; 
 }
 
 .paginacontacto {  
@@ -520,7 +522,7 @@ footer {
   font-size: 1.6rem;
 }
 
-/* Contenedor general del formulario + info */
+
 .formulario-contenedor {
   background-color: #7BAC9F;
   border-radius: 50px;
@@ -537,11 +539,11 @@ footer {
 }
 
 .barra-divisoria {
-    width: 80%; /* La barra ocupará el 80% del ancho del contenedor */
-    height: 2px; /* Alto de la barra */
-    background-color: #AC7B88; /* Color verde */
-    margin: 20px auto; /* Centra la barra debajo de los botones */
-    border-radius: 10px; /* Bordes redondeados si lo prefieres */
+    width: 80%; 
+    height: 2px; 
+    background-color: #AC7B88; 
+    margin: 20px auto; 
+    border-radius: 10px; 
 }
 
 
@@ -592,7 +594,7 @@ footer {
     color: #ffffff;
 }
 
-/* Info de contacto */
+
 .informacion-contacto {
   flex: 1;
   min-width: 300px;
@@ -614,7 +616,7 @@ footer {
 
 .informacion-contacto p {
   font-size: 1.2rem;
-  line-height: 1.8; /* más espacio entre líneas */
+  line-height: 1.8; 
   display: flex;
   align-items: center;
   gap: 0.8rem;
