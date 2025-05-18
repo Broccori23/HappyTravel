@@ -42,23 +42,19 @@ Este proyecto presenta un diseño visual refinado, editorial y moderno, utilizan
 
 ### Página principal (index.html)
 
-**Vista general del header y mensaje de bienvenida**
+![Vista general del header y mensaje de bienvenida](screenshots/1.png)
 
-![Inicio 1](screenshots/index-1.png)
 
-![Inicio 2](screenshots/index-2.png)
+![Vista de carrusel de destinos y footer](screenshots/2.png)
 
 ### Galería de destinos (destinos.html)
 
-![Destinos 1](screenshots/destinos-1.png)
+![Vista de galeria de destinos](screenshots/3.png)
 
-![Destinos 2](screenshots/destinos-2.png)
 
 ### Página de contacto (contacto.html)
 
-![Contacto 1](screenshots/contacto-1.png)
-
-![Contacto 2](screenshots/contacto-2.png)
+![Vista de formulario e informacion de contacto](screenshots/4.png)
 
 
 
